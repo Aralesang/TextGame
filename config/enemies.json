@@ -1,0 +1,81 @@
+[
+  {
+    "id": "training_dummy",
+    "name": "木桩",
+    "health": "infinite",
+    "idleText": "一动不动，没有反击。",
+    "mana": 0,
+    "attack": 0,
+    "defense": 0,
+    "magic": 0,
+    "skills": [],
+    "behavior": {
+      "mode": "idle",
+      "fallback": "idle",
+      "actions": []
+    },
+    "loot": [],
+    "resources": []
+  },
+  {
+    "id": "forest_rat",
+    "name": "森林鼠",
+    "health": 45,
+    "mana": 24,
+    "attack": 9,
+    "defense": 1,
+    "magic": 0,
+    "skills": [
+      "heavy_strike",
+      "heal"
+    ],
+    "idleText": "停下来观察着你。",
+    "behavior": {
+      "mode": "cycle",
+      "fallback": "attack",
+      "actions": [
+        {
+          "type": "attack"
+        },
+        {
+          "type": "skill",
+          "skill": "heavy_strike"
+        },
+        {
+          "type": "defend"
+        },
+        {
+          "type": "skill",
+          "skill": "heal",
+          "when": {
+            "healthBelowPercent": 40
+          }
+        }
+      ]
+    },
+    "loot": [
+      {
+        "itemId": "coin",
+        "chance": 0.65,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "itemId": "health_potion",
+        "chance": 0.3,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "resources": [
+      {
+        "itemId": "raw_meat",
+        "quantity": 2
+      },
+      {
+        "itemId": "bone",
+        "quantity": 1
+      }
+    ]
+  }
+]

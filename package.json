@@ -1,0 +1,30 @@
+{
+  "name": "text-adventure",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "single": "tsx src/cli.ts",
+    "multi": "tsx src/cli.ts --multiplayer",
+    "server": "tsx src/server.ts --multiplayer",
+    "build": "tsc",
+    "test": "tsx --test tests/*.test.ts",
+    "client": "tsx src/cli.ts --connect",
+    "view": "tsx src/cli.ts",
+    "panels": "tsx src/cli.ts",
+    "config:check": "tsx src/check-config.ts"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}

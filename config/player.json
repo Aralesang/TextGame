@@ -1,0 +1,8 @@
+{
+  "vitals": { "health": 100, "mana": 100, "satiety": 100, "hydration": 100 },
+  "coins": 0,
+  "unarmedAttack": 5,
+  "equipment": { "weapon": "wood_sword", "body": "cloth", "head": "leather_cap", "accessory": null },
+  "skills": "all",
+  "starterInventory": { "equipment": 1, "potion": 3, "consumable": 3, "material": 0, "items": {} }
+}

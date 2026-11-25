@@ -1,0 +1,190 @@
+[
+  {
+    "id": "wood_sword",
+    "name": "木剑",
+    "kind": "equipment",
+    "slot": "weapon",
+    "attack": 10,
+    "description": "普通攻击 10"
+  },
+  {
+    "id": "iron_sword",
+    "name": "铁剑",
+    "kind": "equipment",
+    "slot": "weapon",
+    "attack": 16,
+    "description": "普通攻击 16"
+  },
+  {
+    "id": "staff",
+    "name": "法杖",
+    "kind": "equipment",
+    "slot": "weapon",
+    "attack": 8,
+    "magic": 10,
+    "description": "普通攻击 8，魔法强度 +10"
+  },
+  {
+    "id": "cloth",
+    "name": "布衣",
+    "kind": "equipment",
+    "slot": "body",
+    "defense": 2,
+    "description": "防御 +2"
+  },
+  {
+    "id": "chainmail",
+    "name": "锁甲",
+    "kind": "equipment",
+    "slot": "body",
+    "defense": 6,
+    "description": "防御 +6"
+  },
+  {
+    "id": "leather_cap",
+    "name": "皮帽",
+    "kind": "equipment",
+    "slot": "head",
+    "defense": 1,
+    "description": "防御 +1"
+  },
+  {
+    "id": "iron_helm",
+    "name": "铁盔",
+    "kind": "equipment",
+    "slot": "head",
+    "defense": 3,
+    "description": "防御 +3"
+  },
+  {
+    "id": "power_ring",
+    "name": "力量戒指",
+    "kind": "equipment",
+    "slot": "accessory",
+    "attack": 4,
+    "description": "物理攻击 +4"
+  },
+  {
+    "id": "magic_amulet",
+    "name": "魔力护符",
+    "kind": "equipment",
+    "slot": "accessory",
+    "magic": 8,
+    "description": "魔法强度 +8"
+  },
+  {
+    "id": "guard_charm",
+    "name": "守护护符",
+    "kind": "equipment",
+    "slot": "accessory",
+    "defense": 4,
+    "description": "防御 +4"
+  },
+  {
+    "id": "health_potion",
+    "name": "生命药水",
+    "kind": "potion",
+    "restore": {
+      "health": 40
+    },
+    "description": "恢复生命 40"
+  },
+  {
+    "id": "greater_health",
+    "name": "大生命药水",
+    "kind": "potion",
+    "restore": {
+      "health": 80
+    },
+    "description": "恢复生命 80"
+  },
+  {
+    "id": "mana_potion",
+    "name": "法力药水",
+    "kind": "potion",
+    "restore": {
+      "mana": 35
+    },
+    "description": "恢复法力 35"
+  },
+  {
+    "id": "elixir",
+    "name": "复合药水",
+    "kind": "potion",
+    "restore": {
+      "health": 25,
+      "mana": 25
+    },
+    "description": "恢复生命、法力各 25"
+  },
+  {
+    "id": "food_potion",
+    "name": "面包",
+    "kind": "potion",
+    "restore": {
+      "satiety": 40
+    },
+    "description": "恢复饱食度 40"
+  },
+  {
+    "id": "water_potion",
+    "name": "饮用水",
+    "kind": "potion",
+    "restore": {
+      "hydration": 40
+    },
+    "description": "恢复水分 40"
+  },
+  {
+    "id": "strength_potion",
+    "name": "力量药水",
+    "kind": "potion",
+    "effect": "strength",
+    "power": 8,
+    "turns": 3,
+    "description": "后续 3 次行动物理攻击 +8；同类刷新，不叠加"
+  },
+  {
+    "id": "magic_potion",
+    "name": "魔力药水",
+    "kind": "potion",
+    "effect": "magic",
+    "power": 10,
+    "turns": 3,
+    "description": "后续 3 次行动魔法强度 +10；同类刷新，不叠加"
+  },
+  {
+    "id": "regen_potion",
+    "name": "再生药水",
+    "kind": "potion",
+    "effect": "regeneration",
+    "power": 10,
+    "turns": 3,
+    "description": "后续 3 次行动后恢复生命 10"
+  },
+  {
+    "id": "coin",
+    "name": "金币",
+    "kind": "material",
+    "description": "流通货币，拾取获得1金币",
+    "currencyValue": 1
+  },
+  {
+    "id": "stone",
+    "name": "石头",
+    "kind": "material",
+    "description": "普通石头"
+  },
+  {
+    "id": "raw_meat",
+    "name": "生肉",
+    "kind": "material",
+    "description": "分解生物获得的肉类资源"
+  },
+  {
+    "id": "bone",
+    "name": "骨头",
+    "kind": "material",
+    "description": "分解生物获得的骨骼资源"
+  }
+]

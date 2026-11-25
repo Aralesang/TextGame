@@ -1,0 +1,34 @@
+[
+  {
+    "id": "heavy_strike",
+    "name": "重击",
+    "cost": 8,
+    "target": "enemy",
+    "multiplier": 2,
+    "description": "对单体造成 2 倍物理攻击伤害"
+  },
+  {
+    "id": "fireball",
+    "name": "火球",
+    "cost": 12,
+    "target": "enemy",
+    "damage": 30,
+    "description": "单体魔法伤害 30 + 魔法强度"
+  },
+  {
+    "id": "sweep",
+    "name": "横扫",
+    "cost": 15,
+    "target": "all",
+    "multiplier": 0.8,
+    "description": "对所有敌人各造成 0.8 倍物理攻击伤害"
+  },
+  {
+    "id": "heal",
+    "name": "治疗",
+    "cost": 10,
+    "target": "self",
+    "heal": 35,
+    "description": "恢复自身生命 35"
+  }
+]

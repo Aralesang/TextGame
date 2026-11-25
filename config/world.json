@@ -1,0 +1,56 @@
+{
+  "startMap": "camp",
+  "maps": [
+    {
+      "id": "camp",
+      "name": "营地",
+      "description": "篝火静静燃烧。营地外的小路通往森林。",
+      "exits": [
+        "forest"
+      ],
+      "groundItems": [],
+      "encounters": [
+        {
+          "id": "dummy",
+          "members": [
+            {
+              "enemyId": "training_dummy",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "森林",
+      "description": "树叶在风中沙沙作响。林间小路通往营地。",
+      "exits": [
+        "camp"
+      ],
+      "groundItems": [
+        {
+          "id": "coin",
+          "itemId": "coin",
+          "quantity": 1
+        },
+        {
+          "id": "stone",
+          "itemId": "stone",
+          "quantity": 1
+        }
+      ],
+      "encounters": [
+        {
+          "id": "rat_group",
+          "members": [
+            {
+              "enemyId": "forest_rat",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
